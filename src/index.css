@@ -18,7 +18,8 @@ img{
   
 }
 .blogimg{
-  
+  max-height: 300px;
+  height: 300px;
 }
 @media (min-width: 768px){
   img.blog__image{
