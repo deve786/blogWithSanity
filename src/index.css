@@ -14,10 +14,12 @@ code {
 img{
   max-width: 100%;
   margin: auto;
-  height:100%
+  
   
 }
-
+.blogimg{
+  height:100%
+}
 @media (min-width: 768px){
   img.blog__image{
     height: 600px;

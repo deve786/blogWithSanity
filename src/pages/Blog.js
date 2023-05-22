@@ -31,7 +31,7 @@ function Blog() {
         <div className=" grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 ">
           {post.map((post) => (
             <article key={post.slug.current}>
-              <img src={post.mainImage.asset.url} alt={post.title} />
+              <img className="blogimg" src={post.mainImage.asset.url} alt={post.title} />
               <h4 className="text-xl mt-2">{post.title}</h4>
               <button className="mt-5 mb-10">
                 <Link
