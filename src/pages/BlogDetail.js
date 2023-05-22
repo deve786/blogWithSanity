@@ -53,7 +53,7 @@ function BlogDetail() {
               to="/blog"
               className="py-2 px-6 rounded shadow text-white bg-black hover:bg-transparent border-2 border-black transition-all duration-500 hover:text-black font-bold "
             >
-              Read more articles
+              Read more articles...
             </Link>
           </buton>
         </section>
