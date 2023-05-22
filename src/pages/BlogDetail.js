@@ -34,7 +34,7 @@ function BlogDetail() {
         <h1 className='uppercase font-bold text-4xl tracking-wide mb-5 md:text-6xl lg:text-8xl flex items-center justify-center h-screen'>Loading....</h1>
       ) : (
         <section className="px-5 xl:max-w-6xl xl:mx-auto pb-20">
-          <h1 className="uppercase font-bold text-4xl tracking-wide mb-5 md:text-6xl lg:text-8xl text-center mt-5 mb-10">
+          <h1 className="uppercase font-bold text-4xl tracking-wide mb-5 md:text-4xl lg:text-6xl text-center mt-5 mb-10">
             {singlePost.title}
           </h1>
           {singlePost.mainImage && singlePost.mainImage.asset && (
